@@ -131,26 +131,47 @@ a {
     margin-left: 50px;
 }
 
+
+
+
+
+
+
 @media (max-width: 768px) {
-    .header {
-        width: 100%;
-    }
 
-    body {
-        width: 900px;
-    }
-
-    .container {
-        max-width: 768px;
+    .container{
+        max-width: 600px;
         margin: 0 auto;
+        overflow-x: hidden;
     }
 
-    .span {
+    .ul{
+        display: none;
+    }
+
+    .header{
+        max-width: 768px;
+    }
+
+  
+
+    .contact{
+        width: 80px;
+        height: 32px;
+        color: white;
+    }
+
+    .span{
+        width: 195px;
+        height: 65px;
         padding: 8px 15px;
     }
 
-    .text-h3 {
-        width: 268.5px;
+    .text-h3{
+        margin-top: 40px;
+        font-family: 'Inter';
+        font-weight: 350;
+        width: 253px;
         height: 120px;
         font-size: 32px;
         line-height: 40px;
@@ -159,47 +180,46 @@ a {
     }
 
     .text-p {
+        font-family: 'Inter';
+        font-weight: 200px;
         font-size: 9px;
         line-height: 14.4px;
         letter-spacing: 0%;
         color: #849499;
-        width: 255.5px;
+        width: 235px;
         height: 29px;
     }
 
     .button1 {
-        border: none;
-        background-color: #FFA63A;
-        width: 90px;
+        width: 80px;
         height: 30.5px;
-        border-radius: 12.5px;
-        padding: 8px 17.5px;
-    
+        padding: 8px 13px;
     }
-
+    
     .button2 {
         border: none;
-        width: 90px;
+        width: 80px;
         height: 30.5px;
-        border-radius: 12.5px;
-        padding: 8px 17.5px;
+        padding: 8px 13px;
     }
 
     .img1{
+        position: relative;
+        right: 50px;
         width: 400px;
-        height: 310px;
-    }
-
-    .img2{
-        width: 250px;
-        height: 120px;
-    }
-
-    .rating-img{
-        width: 768px;
-        margin-top: -120px;
-        margin-left: -50px;
         height: 300px;
     }
 
+    .img2{
+        position: relative;
+        right: 200px;
+        width: 140px;
+        height: 60px;
+    }
+
+    .rating-img{
+        width: 585px;
+        height: 211px;
+        margin-left: -50px;
+    }
 }
